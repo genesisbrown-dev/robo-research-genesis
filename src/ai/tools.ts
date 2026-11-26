@@ -22,7 +22,6 @@ const ALLOWED_TOOL_NAMES = [
   'records.get',
   'records.create',
   'records.update',
-  'records.delete',
   'user.current',
 ]
 

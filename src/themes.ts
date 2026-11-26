@@ -18,14 +18,19 @@
 
 export const THEMES = [
   {
+    id: 'robo',
+    label: 'RoboResearch',
+    description: 'A focused dark workspace for robotics research.',
+  },
+  {
     id: 'slate',
     label: 'Slate',
-    description: 'Neutral dark placeholder default. Replace with your own theme.',
+    description: 'Neutral dark theme.',
   },
   {
     id: 'paper',
     label: 'Paper',
-    description: 'Light example theme showing the token contract. Replace or delete.',
+    description: 'Light theme.',
   },
 ] as const
 

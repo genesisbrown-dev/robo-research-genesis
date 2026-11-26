@@ -16,31 +16,30 @@
  *   4. Switch to it via `data-theme` on <html> in index.html.
  */
 
-/* Paper — light example theme; shows the full token contract incl.
- * `color-scheme: light`. Replace or delete it once the app has its own. */
-[data-theme="paper"] {
-  color-scheme: light;
-  --color-background: #ffffff;
-  --color-foreground: #0a0a0a;
-  --color-card: #fafafa;
-  --color-card-foreground: #0a0a0a;
-  --color-popover: #ffffff;
-  --color-popover-foreground: #0a0a0a;
-  --color-primary: #171717;
+/* RoboResearch — focused robotics research lab theme */
+[data-theme="robo"] {
+  color-scheme: dark;
+  --color-background: #0b1220;
+  --color-foreground: #e6edf7;
+  --color-card: #111c2e;
+  --color-card-foreground: #e6edf7;
+  --color-popover: #111c2e;
+  --color-popover-foreground: #e6edf7;
+  --color-primary: #3b82f6;
   --color-primary-foreground: #ffffff;
-  --color-secondary: #f5f5f5;
-  --color-secondary-foreground: #0a0a0a;
-  --color-muted: #f5f5f5;
-  --color-muted-foreground: #525252;
-  --color-accent: #e5e5e5;
-  --color-accent-foreground: #0a0a0a;
-  --color-destructive: #dc2626;
+  --color-secondary: #1b2a40;
+  --color-secondary-foreground: #dbeafe;
+  --color-muted: #172438;
+  --color-muted-foreground: #94a3b8;
+  --color-accent: #1e3a5f;
+  --color-accent-foreground: #bfdbfe;
+  --color-destructive: #ef4444;
   --color-destructive-foreground: #ffffff;
-  --color-border: #e5e5e5;
-  --color-input: #e5e5e5;
-  --color-ring: #171717;
-  --shadow-card: 0 1px 2px 0 rgba(0, 0, 0, 0.016);
-  --shadow-card-hover: 0 2px 8px 0 rgba(0, 0, 0, 0.032);
-  --color-shell: #fafafa;
-  --color-shell-panel: #ffffff;
+  --color-border: #26364d;
+  --color-input: #26364d;
+  --color-ring: #60a5fa;
+  --shadow-card: 0 2px 8px rgba(0, 0, 0, 0.18);
+  --shadow-card-hover: 0 8px 24px rgba(0, 0, 0, 0.28);
+  --color-shell: #0e192a;
+  --color-shell-panel: #111c2e;
 }
